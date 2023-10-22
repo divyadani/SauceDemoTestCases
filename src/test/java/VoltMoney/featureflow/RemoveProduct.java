@@ -30,7 +30,7 @@ public class RemoveProduct extends BrowserInvoke{
     @Test(priority = 3)
     public void removeProdFrmProdPage() throws IOException {
         String productName = "Sauce Labs Backpack";
-        LoginPage loginPage = launchApplication();
+        LoginPage loginPage = new LoginPage(driver);
         loginPage.goTo();
         ProductListingPage productListingPage = loginPage.inputLoginCredential();
 
@@ -51,7 +51,7 @@ public class RemoveProduct extends BrowserInvoke{
     @Test(priority = 4)
     public void removeProdFromCart() throws IOException {
         String productName = "Sauce Labs Backpack";
-        LoginPage loginPage = launchApplication();
+        LoginPage loginPage = new LoginPage(driver);
         loginPage.goTo();
         ProductListingPage productListingPage = loginPage.inputLoginCredential();
 
