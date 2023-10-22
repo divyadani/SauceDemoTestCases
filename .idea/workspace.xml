@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3ec6facb-92b6-482d-be4c-52e09862c927" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="2X3Y4p0R1x7GwuwJHWrNlcNWF6q" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RunManager" selected="TestNG.RemoveProduct">
+    <configuration name="ErrorValidation" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="FrameworkDesign" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="VoltMoney.featureflow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="VoltMoney.featureflow" />
+      <option name="MAIN_CLASS_NAME" value="VoltMoney.featureflow.ErrorValidation" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginToCheckout.errorValidation" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="FrameworkDesign" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="VoltMoney.featureflow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="VoltMoney.featureflow" />
+      <option name="MAIN_CLASS_NAME" value="VoltMoney.featureflow.LoginToCheckout" />
+      <option name="METHOD_NAME" value="errorValidation" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoveProduct" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="FrameworkDesign" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="VoltMoney.featureflow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="VoltMoney.featureflow" />
+      <option name="MAIN_CLASS_NAME" value="VoltMoney.featureflow.RemoveProduct" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoveProduct.removeProdFrmProdPage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="FrameworkDesign" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="VoltMoney.featureflow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="VoltMoney.featureflow" />
+      <option name="MAIN_CLASS_NAME" value="VoltMoney.featureflow.RemoveProduct" />
+      <option name="METHOD_NAME" value="removeProdFrmProdPage" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoveProduct.removeProdListingPage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="FrameworkDesign" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="VoltMoney.featureflow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="VoltMoney.featureflow" />
+      <option name="MAIN_CLASS_NAME" value="VoltMoney.featureflow.RemoveProduct" />
+      <option name="METHOD_NAME" value="removeProdListingPage" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.RemoveProduct" />
+        <item itemvalue="TestNG.ErrorValidation" />
+        <item itemvalue="TestNG.LoginToCheckout.errorValidation" />
+        <item itemvalue="TestNG.RemoveProduct.removeProdFrmProdPage" />
+        <item itemvalue="TestNG.RemoveProduct.removeProdListingPage" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3ec6facb-92b6-482d-be4c-52e09862c927" name="Changes" comment="" />
+      <created>1697859041580</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1697859041580</updated>
+    </task>
+    <servers />
+  </component>
+</project>
