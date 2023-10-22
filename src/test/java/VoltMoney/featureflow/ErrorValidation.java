@@ -11,7 +11,7 @@ import java.io.IOException;
 public class ErrorValidation extends BrowserInvoke {
     @Test(dataProvider = "loginCred",priority = 5)
     public void errorValidation(String email, String password) throws IOException {
-        LoginPage loginPage = launchApplication();
+        LoginPage loginPage = new LoginPage(driver);
         loginPage.multiLoginCredential(email, password);
         String errorMessage = loginPage.errorTextForWrongLogin();
         Assert.assertEquals(errorMessage,"Epic sadface: Username and password do not match any user in this service");
