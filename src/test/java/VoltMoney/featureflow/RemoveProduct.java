@@ -14,7 +14,7 @@ public class RemoveProduct extends BrowserInvoke{
     @Test(priority = 2)
     public void removeProdListingPage() throws IOException {
         String productName = "Sauce Labs Backpack";
-        LoginPage loginPage = launchApplication();
+        LoginPage loginPage = new LoginPage(driver);
         loginPage.goTo();
         ProductListingPage productListingPage = loginPage.inputLoginCredential();
 
