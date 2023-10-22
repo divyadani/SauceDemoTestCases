@@ -12,7 +12,7 @@ public class LoginToCheckout extends BrowserInvoke {
     public void checkoutFunctionality() throws IOException {
 
         String productName = "Sauce Labs Backpack";
-        LoginPage loginPage = launchApplication();
+        LoginPage loginPage = new LoginPage(driver);
         loginPage.goTo();
 
         ProductListingPage productListingPage = loginPage.inputLoginCredential();
